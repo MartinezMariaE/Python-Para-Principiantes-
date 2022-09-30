@@ -5,7 +5,7 @@ b) Ingresar por teclado el tiempo record registrado para dicha carrera. Determin
 c) Calcular y mostrar el tiempo promedio entre todos los ciclistas.
 """
 promedio=0
-minimo=1000
+minimo=1000 #lo declaro en 1000, ya que no superará ese valor
 acum=0
 #Primero establecemos el tiempo record
 tiempo_record=float(input("Ingrese el tiempo record actual de la carrera: "))
